@@ -4,9 +4,15 @@
     <list default="true" id="e8512c4f-4af9-4356-a51d-9a66d3a99b8f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/app/GreeterApplication.scala" afterPath="$PROJECT_DIR$/src/main/scala/app/GreeterApplication.scala" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/app/BankAccount.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/app/CashISASavingsAccount.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/app/GreeterApplication$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/app/GreeterApplication$.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/app/GreeterApplication$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/app/GreeterApplication$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/app/Person.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/app/Person.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/app/GreeterApplication.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/app/GreeterApplication.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/app/Person.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/app/Prompt$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/app/Prompt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/app/SavingsAccount.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,13 +36,23 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/app/GreeterApplication.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-              <folding />
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="e#13#62#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Class" />
+        <option value="Scala Object" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,6 +125,24 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GreetingPDF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreetingPDF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreetingPDF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreetingPDF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -123,6 +157,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="app.views" />
+      <recent name="app.models" />
       <recent name="app" />
       <recent name="scala" />
     </key>
@@ -150,7 +186,7 @@
     <configuration name="GreeterApplication" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="app.*" />
+          <option name="PATTERN" value="app.models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,11 +339,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="664" width="2485" height="776" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753164" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -348,7 +383,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#13#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -356,7 +393,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#13#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -364,7 +403,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#13#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -372,7 +413,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#13#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -380,6 +423,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/app/models/BankAccount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -387,8 +440,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/app/GreeterApplication.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding />
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
