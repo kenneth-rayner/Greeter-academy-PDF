@@ -17,6 +17,7 @@ object GreeterApplication extends App {
   val loyalAccountDeposited = normalAccount.deposit(300.00)
 
   val loyal = new Person("Loyal customer", 22, loyalAccountDeposited)
-  Prompt.reply(loyal.speak())
-
+  //Prompt.reply(loyal.speak())
+  val p1 = new Person(name, age.toInt)
+  Prompt.reply(p1.speak())
 }
