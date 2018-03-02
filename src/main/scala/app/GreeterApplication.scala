@@ -11,12 +11,12 @@ object GreeterApplication extends App {
   val cashisa = new CashISASavingsAccount("45676", 0.0, 1000.00)
   val deposited = cashisa.deposit(1000.00)
   val withdrawn = deposited.withdraw(200.00)
-  val person = new Person(name, age.toInt, withdrawn)
+  val person = new Person(name, age.toInt, List(withdrawn))
 
   val normalAccount = new CashISASavingsAccount("12334", 100.00)
   val loyalAccountDeposited = normalAccount.deposit(300.00)
 
-  val loyal = new Person("Loyal customer", 22, loyalAccountDeposited)
+  val loyal = new Person("Loyal customer", 22, List(loyalAccountDeposited))
   //Prompt.reply(loyal.speak())
   val p1 = new Person(name, age.toInt)
   Prompt.reply(p1.speak())
