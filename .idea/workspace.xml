@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8512c4f-4af9-4356-a51d-9a66d3a99b8f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/app/models/Person$.class" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/app/GreeterApplication.scala" afterPath="$PROJECT_DIR$/src/main/scala/app/GreeterApplication.scala" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/app/models/Person.scala" afterPath="$PROJECT_DIR$/src/main/scala/app/models/Person.scala" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/app/GreeterApplication$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/app/GreeterApplication$delayedInit$body.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/app/GreeterApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/app/models/Person.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/app/GreeterApplication$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/app/GreeterApplication$.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/app/models/Person.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/app/models/Person.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
