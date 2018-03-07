@@ -20,4 +20,5 @@ object GreeterApplication extends App {
   //Prompt.reply(loyal.speak())
   val p1 = new Person(name, age.toInt)
   Prompt.reply(p1.speak())
+
 }
